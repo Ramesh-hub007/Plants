@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 23:00:00</entered_time>
+        <max_drift/>
+        <name>Check rainfall</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2024-10-22 05:21:58</run_start>
+        <run_time>1970-01-02 07:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[var si = new x_snc_plant_mgmt.RainUtil();
+si.checkRainFall();]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 05:52:59</sys_created_on>
+        <sys_id>2d437b4bc3d59a109421b71ed401311b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Check rainfall</sys_name>
+        <sys_package display_value="Plant Management" source="x_snc_plant_mgmt">9c697d609329ca10c7067a418bba1022</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Plant Management">9c697d609329ca10c7067a418bba1022</sys_scope>
+        <sys_update_name>sysauto_script_2d437b4bc3d59a109421b71ed401311b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 05:52:59</sys_updated_on>
+        <time_zone>US/Pacific</time_zone>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>2d437b4bc3d59a109421b71ed401311b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 05:52:58</sys_created_on>
+        <sys_id>2f5a3383c3199a109421b71ed4013195</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 05:52:58</sys_updated_on>
+        <table>sysauto_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
